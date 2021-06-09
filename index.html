@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minion-Speaks</title>
+    <style>
+        #txt-input{
+            height: 10vh;
+            width:80%;
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+            border:1px black solid;
+        }
+        #output{
+            background-color: white;
+            height:10vh;
+            width: 80%;
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+            border: 1px black solid;
+            
+        }
+        #translate-btn{
+            background-color: yellow;
+            color:black;
+            padding: 1rem;
+            border-radius: 1rem;
+            font-size: larger;
+
+        }
+        .image{
+            max-width: 350px;;
+            display: block;
+            margin: auto;
+
+        }
+        body{
+            background-color: lightblue;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <nav>
+        <h1 style="background-color: yellow ;color:blue;text-align: center;padding: 2rem;font-weight: 500;border: 2px blue solid;">MINION-SPEAKS</h1>
+
+        <div class="image"><img src="https://upload.wikimedia.org/wikipedia/en/7/7d/Minions_characters.png"></div>
+        </nav>
+
+    <textarea = id="txt-input"
+    placeholder="put your sentence in english i will convert it into minion language"></textarea>
+
+    <button id = "translate-btn" >Translate to minion</button>
+
+    <div style="font-size: larger;padding-top: 0.5rem;">output will be given here👇</div>
+    <div id="output"></div>
+    <footer style="text-align: center;background-color: yellow;padding: 1rem;">
+        <h2 style="color: blue;">ABOUT</h1>
+        <ul>
+            <li>The average Minion stands at 105cm in height.</li>
+            <li>Minions have only three fingers.</li>
+            <li>Tall minions all have the same haircut.</li>
+        </ul>
+    </footer>
+    
+    <script src="app.js" text="text/javascript"></script>
+</body>
+</html>
